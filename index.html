@@ -8,7 +8,7 @@
    
     <title>Check Me Out</title>
 </head>
-<body style="background-color: purple;">
+<body style="background-color: rgba(94, 33, 94, 0.893);">
 
     <div id="carouselExampleFade" class="carousel slide carousel-fade mx-5 my-5 " data-bs-ride="carousel">
 
@@ -163,26 +163,26 @@
 
       <div class="container border border-text-info rounded mb-5 p-5">
 
-      <form class="row g-3">
+      <form class="row g-3" action="https://formspree.io/f/xdojdjnj" method="POST" target="_blank">
 
         <div class="col-md-6">
          
-          <input type="email" class="form-control bg-dark text-light" id="inputEmail4" placeholder="Email Address">
+          <input name="email" type="email" class="form-control bg-dark text-light" id="inputEmail4" placeholder="Email Address">
         </div>
 
         <div class="col-md-6">
           
-          <input type="password" class="form-control bg-dark text-light" id="inputPassword4" placeholder="Password">
+          <input name="name" type="password" class="form-control bg-dark text-light" id="inputPassword4" placeholder="Password">
         </div>
 
         <div class="col-12">
          
-          <input type="text" class="form-control bg-dark text-light" id="inputAddress" placeholder="Address">
+          <input name="name" type="text" class="form-control bg-dark text-light" id="inputAddress" placeholder="Address">
         </div>
        
         <div class="col-md-6">
           
-          <input type="text" class="form-control bg-dark text-light" id="inputCity" placeholder="City">
+          <input name="name" type="text" class="form-control bg-dark text-light" id="inputCity" placeholder="City">
         </div>
 
         <div class="col-md-4">
@@ -198,17 +198,18 @@
         </div>
 
         <div class="col-md-2">
-          <!-- <label for="inputZip" class="form-label">Postal Code</label> -->
-          <input type="text" class="form-control bg-dark text-light" id="inputZip" placeholder="Postal Code">
+          
+          <input name="name" type="text" class="form-control bg-dark text-light" id="inputZip" placeholder="Postal Code">
         </div>
 
         <div class="mb-3">
-          <!-- <label for="exampleFormControlTextarea1" class="form-label">Message</label> -->
-          <textarea class="form-control bg-dark text-light" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Message Here"></textarea>
+         
+          <textarea name="text" class="form-control bg-dark text-light" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Message Here"></textarea>
         </div>
 
         <div class="col-12">
           <button type="submit" class="btn btn-primary">Send</button>
+          <button type="reset" class="btn btn-primary me-5">Clear</button>
         </div>
 
       </form>
